@@ -117,6 +117,7 @@ li {
 @media (min-width: 768px) {
     body, .container {
         max-width: 768px;
+        margin: 0px;
     }
 
     #iconMenu {
@@ -154,29 +155,30 @@ li {
         overflow: hidden;
     }
 
-    .product-left, .photo-container,.product-right {
+    .product-left,.product-right {
         float:left;
-        width: 48vw;
+        width: 49%;
+    }
+
+    h2,p .photo-container,.photo,.pzoom {
+        width: 100%;
     }
 
     .product-left {
-        margin-right: 10px;
+        margin-right: 1%;
     }
 
     .product-right {
-        margin-left: 10px;
-    }
-
-    .photo,.pzoom {
-        width: 48vw;
+        margin-left: 1%;
     }
 
     .zoom {
-        left: 16vw;
+        left: 34%;
     }
 
     article {
-        margin-bottom: 10px
+        margin-bottom: 10px;
+        box-sizing: border-box;
     }
 
 }
@@ -209,6 +211,10 @@ li {
         margin-bottom: 30px;
     }
 
+    .vip-products {
+        margin-bottom: 10px;
+    }
+
     .main-footer {
         margin-top: 30px;
         background-color: #B92519;
@@ -238,21 +244,18 @@ li {
         width: 380px;
     }
 
-    article {
-        margin-bottom: 20px;
-    }
-
     #art2,#art5 {
         margin-left: 20px;
         margin-right: 20px;
     }
 
     .product-left,.product-right {
-        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 
     .zoom {
-        left: 11vw;
         font-size: 1.5em;
     }
 
